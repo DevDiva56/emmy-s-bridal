@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Section */
+nav ol{
+    list-style: none;
+    font: 1.2em sans-serif;
+    display: flex;
+    position: relative;
+
+}
+
+.link a{
+    padding: 0.5em 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: aqua;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+
+
+/* Hero Section */
+
+.container2{
+    background-image:url("https://i.postimg.cc/zvXdWS00/il-680x540-6436530585-1ze1-removebg-preview.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
