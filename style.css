@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background: #18181B;
+}
+
 /* Navigation Section */
 nav ol{
     list-style: none;
@@ -28,10 +32,92 @@ nav ol{
 /* Hero Section */
 
 .container2{
-    background-image:url("https://i.postimg.cc/zvXdWS00/il-680x540-6436530585-1ze1-removebg-preview.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
+    /* border:1px solid; */
+    margin: 20px;
+    background: linear-gradient(cyan, pink);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 3px 10px rgb(255, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height:auto;
+    position: relative;
+}
+
+h1{
+    font-size: 90px;
+
+}
+
+.hero-para{
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 10px;
+    font-style: italic;
+}
+
+.hero-image img{
+    width: 100;
+     display: block;
+   
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button button{
+    padding: 10px 20px;
+    background-color: cyan;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button button:hover{
+    background-color: pink;
+}
+
+.button button:focus{
+    background: #0B1026;
+}
+
+.button button:active{
+    background: greenyellow;
+}
+
+
+/* Listing Section */
+
+.card{
+    border: 1px solid;
+    width: 500px;
+    position: relative;
+    
+    background: linear-gradient(cyan, pink);
+}
+
+.subcontainer{
+    background: linear-gradient(Cyan ,Pink , Plum);
+}
+
+h2{
+    font-style: oblique;
+}
+
+img{
+   z-index: 99;
 }
 
 
