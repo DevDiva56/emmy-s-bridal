@@ -1,73 +1,161 @@
-# Emmy's Bridal — HTML Practice Project
+# Emmy's Bridal — HTML & CSS Practice Project
 
 ## About
 
 Emmy's Bridal is my first front-end development practice project.
 
-For this stage, I focused specifically on building the website structure using HTML before moving on to CSS.
+I created a fictional bridal website designed to showcase a collection of wedding gowns and provide visitors with a simple contact form.
+
+I started by focusing on the HTML structure and have now moved into the CSS styling stage.
+
+The project is helping me practice how HTML and CSS work together to create a complete webpage.
 
 ## What I Practiced
 
 ### HTML Structure
-- DOCTYPE
-- HTML
-- Head
-- Body
-- Meta tags
-- Title
+
+* DOCTYPE
+* HTML document structure
+* Head and body sections
+* Meta tags
+* Page title
+* External CSS stylesheet
 
 ### Navigation
-- Navigation bar
-- Headings
-- Links
+
+* Navigation section
+* Logo image
+* Navigation menu
+* List elements
+* Hover styling
 
 ### Hero Section
-- Main heading
-- Paragraph
-- Button
-- Image
-- Image alt text
+
+* Main heading
+* Introduction paragraph
+* Hero image
+* Call-to-action button
+* Button interaction states
 
 ### Product Listings
-- Product cards
-- Images
-- Headings
-- Product descriptions
-- Number inputs
-- Buttons
+
+* Product/gown cards
+* Product images
+* Image `alt` text
+* Gown names
+* Product descriptions
+* Number inputs
+* Purchase buttons
+* Reusable `.card` styling
 
 ### Contact Form
-- Labels
-- Text input
-- Email input
-- Placeholders
-- Select dropdown
-- Textarea
-- Submit button
+
+* Name input
+* Email input
+* Labels
+* Placeholders
+* Select dropdown
+* Textarea
+* Submit button
 
 ### Footer
-- Company name
-- About
-- Contact
-- Message Us section
+
+* Business name
+* About section
+* Contact section
+* Message Us section
+* Contact form
+
+## CSS Styling
+
+I have started styling the HTML structure using CSS.
+
+Some of the CSS concepts I have practiced include:
+
+* CSS selectors
+* Universal selector
+* Margins and padding
+* Background colors
+* Linear gradients
+* Borders
+* Border radius
+* Box shadows
+* Font sizing
+* Flexbox
+* Flex wrapping
+* Element positioning
+* Hover states
+* Focus states
+* Active states
+* Transitions
+
+### Current Styling
+
+The navigation and hero sections have been styled, including the logo, navigation menu, gradient backgrounds, typography, buttons, and spacing.
+
+The gown listing cards have also been given initial styling.
+
+The listing section is still being refined as I continue working on the layout and visual presentation.
 
 ## What I Learned
 
-This project helped me practice creating a complete webpage structure from scratch using HTML.
+This project has helped me practice creating a complete webpage from scratch.
 
-I also learned the importance of:
-- Structuring a webpage into sections
-- Using semantic HTML elements
-- Connecting labels to form inputs
-- Using descriptive `alt` text for images
-- Avoiding duplicate IDs
+I learned how to:
+
+* Structure a webpage into different sections
+* Organize HTML content
+* Use classes for reusable styling
+* Add images with descriptive `alt` text
+* Create and structure forms
+* Use Flexbox for layout
+* Apply gradients and shadows
+* Create interactive hover, focus, and active states
+* Connect an external CSS stylesheet to HTML
+
+I am also learning that building a webpage is an iterative process. I can create the structure first and then gradually improve the design and styling.
 
 ## Current Status
 
 🟢 HTML structure complete
 
-🔜 CSS styling next
+🟡 CSS styling in progress
 
-## Next Step
+🟡 Gown listing/card styling in progress
 
-I will now style the existing HTML structure using CSS.
+🔜 Responsive design improvements
+
+🔜 JavaScript functionality
+
+## Next Steps
+
+My next steps are to:
+
+1. Complete the styling of the gown listings.
+2. Improve spacing and visual consistency.
+3. Make the layout more responsive across different screen sizes.
+4. Review and clean up the HTML and CSS.
+5. Add JavaScript functionality in a future stage.
+
+## Project Structure
+
+```text
+Emmy's-Bridal/
+│
+├── index.html
+├── style.css
+├── images/
+│   └── EB1.png
+└── README.md
+```
+
+## Technologies Used
+
+* HTML5
+* CSS3
+
+## Project Goal
+
+The goal of this project is to strengthen my understanding of front-end development fundamentals by building a complete webpage from scratch and gradually improving it as I learn.
+
+This project is part of my learning journey in web development.
